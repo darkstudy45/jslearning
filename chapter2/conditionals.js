@@ -24,3 +24,5 @@ else{
 let marks = 9 ;
 let c = (marks>10)? 'yes' : 'no';
 console.log(c)
+
+//todo   switch case practise
