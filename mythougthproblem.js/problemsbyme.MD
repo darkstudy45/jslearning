@@ -1,0 +1,1 @@
+## q1 - create a blank arr and then insert 1 to 100 and then calculate 1-100 addintion total 
