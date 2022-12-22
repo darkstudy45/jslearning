@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom childs and manupulation </title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+        
+</head>
+<body>
+    <div class="conainter">
+        <div class="header">
+            <h1>Hello in the site </h1>
+        </div>
+        <div class="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit numquam iste itaque delectus dolore? Magni architecto maiores expedita labore, maxime aut voluptas quam esse excepturi tempore deserunt ab at dolore saepe molestias modi officia a libero repudiandae perferendis. Quod odio dolorem corporis unde praesentium? Magnam.
+            
+        </div>
+        <div class="table">
+            <table border="1" cellpadding="10" cellspacing="0">
+                <tr>
+                   <th></th>
+                   <th>Month</th>
+                   <th>Rent</th>
+                   <th colspan="2">Utilities</th><!-- This cell will span 2 columns in the row below it -->
+                   <th>Groceries</th>
+                   <th>Eating Out</th>
+                   <th>Entertainment</th>
+                </tr>
+                 <tr>
+                   <td rowspan="3">Fall</td><!-- this cell will span 3 rows, June, July, & August -->
+                   <td>June</td>
+                   <td>$1500</td>
+                   <td>$100</td><!-- The $100 and $50 cells will be under the Utilities cell-->
+                   <td>$50</td>
+                   <td>$350</td>
+                   <td>$100</td>
+                   <td>$50</td>
+                </tr>
+                <tr>
+                   <td>July</td>
+                   <td>$1500</td>
+                   <td>$100</td>
+                   <td>$50</td>
+                   <td>$350</td>
+                   <td>$100</td>
+                   <td>$50</td>
+                </tr>
+                <tr>
+                   <td>August</td>
+                   <td>$1500</td>
+                   <td>$100</td>
+                   <td>$50</td>
+                   <td>$350</td>
+                   <td>$100</td>
+                   <td>$50</td>
+                </tr>
+             </table>
+        </div>
+    </div>
+</body>
+<script src="elementonlychild.js"></script>
+</html>
