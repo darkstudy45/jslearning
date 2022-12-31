@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light bulb</title>
+
+</head>
+<body>
+
+
+    
+    <img id="offbulb" src="https://www.pngmart.com/files/1/Bulb-off-PNG-Transparent-Image.png" alt="bulb">
+    <button id="off">off</button>
+    <button id="on">on</button>
+</body>
+<script>
+    let bulb =document.getElementById('offbulb')
+    document.querySelector('#on').addEventListener('click', function() {
+        bulb.src="https://toppng.com/public/uploads/preview/light-bulb-on-off-png-11553940319kdxsp3rf0i.png"
+    })
+    document.querySelector('#off').addEventListener('click', function() { 
+        bulb.src="https://www.pngmart.com/files/1/Bulb-off-PNG-Transparent-Image.png"
+    })
+    
+</script>
+</html>
